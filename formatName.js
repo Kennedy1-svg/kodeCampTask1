@@ -1,5 +1,5 @@
 let b;
-function capitalize(b) {
+function formatName(b) {
     if (b){
         let c = b.replace(/\b\w/g, s => s.toUpperCase())
         console.log(c)
@@ -8,4 +8,4 @@ function capitalize(b) {
     }
 }
 
-capitalize('ohia chimdinma kennedy')
+formatName('ohia chimdinma kennedy')

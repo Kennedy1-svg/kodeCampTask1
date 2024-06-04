@@ -1,5 +1,5 @@
 let b;
-function costOperator(b) {
+function formatThousand(b) {
   if (!isNaN(b)) {
     let c = b.toLocaleString();
     console.log(c);
@@ -8,4 +8,4 @@ function costOperator(b) {
   }
 }
 
-costOperator(10000000000);
+formatThousand(10000000000);
